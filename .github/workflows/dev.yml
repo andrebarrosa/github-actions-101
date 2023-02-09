@@ -20,5 +20,5 @@ jobs:
           yarn instal --network-concurrency 1
 
       - name: Running tests
-        run: yarn tests
-        
+        run: yarn test
+
