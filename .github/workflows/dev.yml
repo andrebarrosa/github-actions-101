@@ -16,8 +16,8 @@ jobs:
           cache: yarn
       - name: Install dependencies
         run: |  
-          yarn cache clean 
-          yarn instal --network-concurrency 1
+            yarn cache clean 
+            yarn instal --network-concurrency 1
       - name: Running tests
         run: yarn test
 
